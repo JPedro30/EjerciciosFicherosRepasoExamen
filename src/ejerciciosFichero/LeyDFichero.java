@@ -68,7 +68,11 @@ public class LeyDFichero {
 
         int[] escaRepartidos = reparteEsca(matrizVotos,esca);
 
-        System.out.println(Arrays.toString(escaRepartidos));
+        for (int i = 0; i < escaRepartidos.length; i++) {
+            System.out.println(partidos[i]+": "+escaRepartidos[i]+" escaños");
+        }
+
+        //System.out.println(Arrays.toString(escaRepartidos));
 
     }
 
