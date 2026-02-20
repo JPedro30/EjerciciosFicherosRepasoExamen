@@ -18,7 +18,7 @@ public class Main {
         try {
             //TarjetaClave tarjeta = new TarjetaClave();
             //CuadradoMagico cuadrado = new CuadradoMagico();
-            Tute tute = new Tute();
+            
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -31,6 +31,7 @@ public class Main {
         //TarjetExam tarjeta = new TarjetExam();
         //MensajeCifrado mensaje = new MensajeCifrado();
         //Ley ley = new Ley();
+        Tute tute = new Tute();
         
 
     }
